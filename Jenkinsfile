@@ -8,4 +8,11 @@ pipeline {
             }
         }
     }
+    stages {
+        stage('Thank youo') {
+            steps {
+                echo 'Thank you for using NepMeds'
+            }
+        }
+    }
 }
